@@ -1,0 +1,21 @@
+html{
+  background-color: goldenrod;
+  border: solid;
+  border-width: thick;
+  border-color: white;
+  height: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: bookman;
+  font-size: 200%;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: 125%;
+  font-family: bookman;
+  margin-left: 10%;
+  margin-right: 10%;
+}
