@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Head is data about the page-->
+
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <!--Body is what the user will interact with-->
+    <h1> Hello, and welcome to the site</h1>
+    <h3> My name is Koko </h3>
+    <p> How you doin</p>
+
+
+    <script>
+      var userName = prompt ('Tell us your user name');
+      console.log('first', userName);
+
+      if (userName === 'koko-kassa') {
+        console.log('true', userName);
+        alert('cool beans')
+      } else {
+        console.log('false', userName);
+        alert ('no go')
+      }
+
+
+    </script>
+  </body>
+</html>
