@@ -3,19 +3,22 @@ html{
   border: solid;
   border-width: thick;
   border-color: white;
-  height: 100%;
+  color: white;
+  font-family: bookman;
 }
 h1{
   text-align: center;
-  color: white;
-  font-family: bookman;
   font-size: 200%;
 }
 p{
   text-align: center;
-  color: white;
   font-size: 125%;
-  font-family: bookman;
   margin-left: 10%;
   margin-right: 10%;
+}
+ul {
+  font-size: 125%;
+}
+nav{
+  margin-left: 10%;
 }
