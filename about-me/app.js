@@ -62,3 +62,25 @@ if (Color === 'no' || Color === 'n') {
   alert('No '+Name+', my favorite color is GREEN');
   console.log('true', Color);
 }
+
+
+var Numbers = prompt ('Can you guess my favorite number? You get 4 guesses!');
+if (Numbers === parseInt(Numbers, 7)) {
+  alert ('You guessed right!');
+  console.log('true', Numbers);
+}
+var counter = 1;
+while (Numbers !== '7' && Numbers !== null && counter !== 4) {
+  if (Numbers >= 8) {
+    alert ('That\'s too high.');
+    Numbers = prompt ('Please try again.');
+    console.log('false', Numbers);
+  } else if (Numbers <= 6) {
+    alert ('That\'s too low.');
+    Numbers = prompt ('Please try again.');
+    console.log('false', Numbers);
+  }
+  counter++;
+}
+console.log('counter change', counter);
+alert ('The correct answer is LUCKY 7!');
