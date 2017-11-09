@@ -16,9 +16,18 @@ p{
   margin-left: 10%;
   margin-right: 10%;
 }
-ul {
+.col1{
+  text-align: center;
+  margin-left: 20%;
+  display: inline;
   font-size: 125%;
+  width: 25%;
+  float: left;
 }
-nav{
-  margin-left: 10%;
-}
+.col2{
+  text-align: center;
+  margin-right: 20%;
+  display: inline;
+  font-size: 125%;
+  width: 25%;
+  float: right;
